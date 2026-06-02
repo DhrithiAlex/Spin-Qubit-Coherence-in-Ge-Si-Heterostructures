@@ -1,2 +1,20 @@
-# Spin-Qubit-Coherence-in-Ge-Si-Heterostructures
-Spin Qubit Coherence in Ge/Si Heterostructures Literature review and QuTiP-based simulation study of hole spin qubits in Ge/Si systems. Includes Rabi oscillations, Ramsey decay, and dephasing analysis (T₂* ~84 ns) to explore coherence properties and compare with experimental results.
+# Spin Qubit Coherence in Ge/Si Heterostructures
+
+**Literature Review + High-Fidelity Simulation Study** using QuTiP.
+
+## Objective
+Study coherence properties (T₂*, Rabi oscillations, Ramsey decay) of hole spins in Ge/Si heterostructures and compare with experimental literature.
+
+## Key Features
+- Realistic simulation of Rabi oscillations with dephasing
+- Ramsey interferometry
+- Easy parameter sweeps (magnetic field, Rabi frequency, T₂*)
+- Literature comparison
+
+## Technologies
+- Python, QuTiP, NumPy, Matplotlib, SciPy
+
+## Installation
+
+```bash
+pip install -e .
